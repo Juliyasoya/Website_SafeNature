@@ -1,1 +1,1 @@
-Live demo: https://juliyasoya.github.io/site_SafeNature/
+Live demo: https://juliyasoya.github.io/Website_SafeNature/
