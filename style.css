@@ -67,6 +67,14 @@ body{
   font-size: 1.125rem;
   padding: 0.5rem 2rem;
   border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+@media (hover: hover) {
+  .navigation__btn--startHelp:hover{
+    transform: scale(1.05);
+  }
 }
 @media (max-width: 768px) {
   .navigation_All{
@@ -139,6 +147,13 @@ body{
 
   outline: 0.125rem solid #ffffff;   /* 2px толщина */
   outline-offset: 0.5rem;            /* 4px отступ от края */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+@media (hover: hover) {
+  .navigation__btn--help:hover{
+    transform: scale(1.05);
+  }
 }
 @media (max-width: 768px) {
   .navigation__sloganLittle{
@@ -151,6 +166,11 @@ body{
     width: 25rem;
     height: 2.5rem;
     border-radius: 100px;
+  }
+}
+@media (max-width: 768px) and (hover: hover) {
+  .navigation__btn--help:hover{
+    transform: translateY(3rem) scale(1.05);
   }
 }
 @media (max-width:360px) {
@@ -232,6 +252,13 @@ body{
   background-color: #BF632F;
   font-size: 1.5rem;
   border-style: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+@media (hover: hover) {
+  .main__btn--startWorkNow:hover{
+    transform: scale(1.02);
+  }
 }
 @media (max-width: 768px) {
   .main__section1{
@@ -300,6 +327,7 @@ body{
   flex:1;
   flex-direction: column;
   justify-content: space-between;
+  align-self: flex-start;
   gap:6rem;
 }
 .main__img--slon{
@@ -422,6 +450,13 @@ body{
   background-color: #ffffff00;
   border: 1px solid #ffffff;
   color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+@media (hover: hover) {
+  .main__btn--startHelpNow:hover{
+    transform: scale(1.05);
+  }
 }
 @media (max-width:1279px) {
   
@@ -516,6 +551,9 @@ body{
   border: none;
   outline: none;
   border-bottom: 1px solid #666666;
+}
+.footer__email:invalid:not(:placeholder-shown){
+  border-bottom-color: #b00020;
 }
 .footer__addRules{
   padding-top: 5px;
